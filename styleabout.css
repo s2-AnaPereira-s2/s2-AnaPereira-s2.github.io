@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkkhaki;
+    margin: 0;
+}
+
+main {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+section.intro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+}
+
+p, h1 {
+    text-align: center;
+    width: 60%;
+    display:block;
+    margin:auto;
+    margin-top: 50px;
+}
+
+section.photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+footer, a {
+    text-align: center;
+    color:darkkhaki;
+    background-color: black;
+}

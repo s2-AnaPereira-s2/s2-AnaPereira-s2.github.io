@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: url(balancestones2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+header {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+    
+}
+
+main {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+      
+}
+
+div {
+    
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    width: 150px;
+
+}
+
+.about, .timeline, .goals {
+    display: block;
+    margin:auto;
+    text-align: center;
+    color: black;
+    width: 80px;
+    height: 30px;
+    font-size: 30px;
+    text-shadow: 0px 2px 4px darkkhaki;
+    
+}
+
+a:active {
+    color:black;
+}
+
+a:visited {
+    color:brown;
+}
+
+a:hover {
+    color:black;
+}
+
+hr {
+    background-color: black;
+    height: 2px;
+    border-color: black;
+}
+
+footer {
+    text-align: center; 
+    width: 100vw;
+    height: 5vh;
+}
