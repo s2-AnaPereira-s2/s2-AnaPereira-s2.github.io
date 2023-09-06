@@ -39,7 +39,7 @@ div {
 
 }
 
-.about, .timeline, .goals {
+.about, .goals {
     display: block;
     margin:auto;
     text-align: center;
